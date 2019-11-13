@@ -74,7 +74,11 @@ class Adapter(object):
 #             end_sequence=('Barcode_2_end', 'TTTTTTTTGGGGGGGGCCCCCCCCAAAAAAAA'))
 
 
-ADAPTERS = [Adapter('SQK-NSK007',
+ADAPTERS = [Adapter('Barcode 1',
+                    start_sequence=('Barcode_1_start', 'AAGCAGTGGTATCAACGCAGAGTAC'),
+                    end_sequence=('Barcode_1_end', 'GTACTCTGCGTTGATACCACTGCTT')),
+
+            Adapter('SQK-NSK007',
                     start_sequence=('SQK-NSK007_Y_Top', 'AATGTACTTCGTTCAGTTACGTATTGCT'),
                     end_sequence=('SQK-NSK007_Y_Bottom', 'GCAATACGTAACTGAACGAAGT')),
 
