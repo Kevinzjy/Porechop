@@ -74,7 +74,7 @@ class Adapter(object):
 #             end_sequence=('Barcode_2_end', 'TTTTTTTTGGGGGGGGCCCCCCCCAAAAAAAA'))
 
 
-ADAPTERS = [Adapter('Barcode 1',
+ADAPTERS = [Adapter('SMARTer',
                     start_sequence=('Barcode_1_start', 'AAGCAGTGGTATCAACGCAGAGTAC'),
                     end_sequence=('Barcode_1_end', 'GTACTCTGCGTTGATACCACTGCTT')),
 
