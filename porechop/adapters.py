@@ -75,8 +75,8 @@ class Adapter(object):
 
 
 ADAPTERS = [Adapter('SMARTer',
-                    start_sequence=('Barcode_1_start', 'AAGCAGTGGTATCAACGCAGAGTAC'),
-                    end_sequence=('Barcode_1_end', 'GTACTCTGCGTTGATACCACTGCTT')),
+                    start_sequence=('SMARTer_adapter', 'AAGCAGTGGTATCAACGCAGAGTAC'),
+                    end_sequence=('SMARTer_adapter_rev', 'GTACTCTGCGTTGATACCACTGCTT')),
 
             Adapter('SQK-NSK007',
                     start_sequence=('SQK-NSK007_Y_Top', 'AATGTACTTCGTTCAGTTACGTATTGCT'),
